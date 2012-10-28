@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5C8DCE3163CE66000FBB82F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C8DCE2163CE66000FBB82F /* Cocoa.framework */; };
+		E5C8DCEF163CE66000FBB82F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C8DCEE163CE66000FBB82F /* main.m */; };
+		E5C8DCF6163CE66000FBB82F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C8DCF5163CE66000FBB82F /* AppDelegate.m */; };
+		E5C8DCF9163CE66000FBB82F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5C8DCF7163CE66000FBB82F /* MainMenu.xib */; };
+		E5C8DD09163CE6F900FBB82F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C8DD08163CE6F900FBB82F /* main.m */; };
+		E5C8DD10163CE72D00FBB82F /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C8DD0F163CE72D00FBB82F /* ApplicationServices.framework */; };
+		E5C8DD11163CE73300FBB82F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C8DCE7163CE66000FBB82F /* Foundation.framework */; };
+		E5C8DD17163CE77B00FBB82F /* AXExamplePrivilegedHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C8DD14163CE77B00FBB82F /* AXExamplePrivilegedHelper.m */; };
+		E5C8DD18163CE77B00FBB82F /* AXExamplePrivilegedHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C8DD14163CE77B00FBB82F /* AXExamplePrivilegedHelper.m */; };
+		E5C8DD19163CE77B00FBB82F /* AXExampleXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C8DD16163CE77B00FBB82F /* AXExampleXPC.m */; };
+		E5C8DD1A163CE77B00FBB82F /* AXExampleXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C8DD16163CE77B00FBB82F /* AXExampleXPC.m */; };
+		E5C8DD1C163CE7FB00FBB82F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C8DD1B163CE7FB00FBB82F /* Security.framework */; };
+		E5C8DD1E163CE80100FBB82F /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C8DD1D163CE80100FBB82F /* ServiceManagement.framework */; };
+		E5C8DD24163CEADA00FBB82F /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C8DD0F163CE72D00FBB82F /* ApplicationServices.framework */; };
+		E5C8DD25163CEADF00FBB82F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C8DD1B163CE7FB00FBB82F /* Security.framework */; };
+		E5C8DD26163CEAE300FBB82F /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C8DD1D163CE80100FBB82F /* ServiceManagement.framework */; };
+		E5C8DD2A163CEB2600FBB82F /* com.samuelkadolph.AXExamplePrivilegedHelper in Copy Launch Services */ = {isa = PBXBuildFile; fileRef = E5C8DD03163CE6F900FBB82F /* com.samuelkadolph.AXExamplePrivilegedHelper */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5C8DD27163CEAFE00FBB82F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5C8DCD5163CE66000FBB82F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5C8DD02163CE6F900FBB82F;
+			remoteInfo = AXExamplePrivilegedHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E5C8DD01163CE6F900FBB82F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E5C8DD29163CEB1500FBB82F /* Copy Launch Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				E5C8DD2A163CEB2600FBB82F /* com.samuelkadolph.AXExamplePrivilegedHelper in Copy Launch Services */,
+			);
+			name = "Copy Launch Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E5C8DCDE163CE66000FBB82F /* AXExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C8DCE2163CE66000FBB82F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E5C8DCE7163CE66000FBB82F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5C8DCEA163CE66000FBB82F /* AXExample-Debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AXExample-Debug.plist"; sourceTree = "<group>"; };
+		E5C8DCEE163CE66000FBB82F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5C8DCF0163CE66000FBB82F /* AXExample.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AXExample.pch; sourceTree = "<group>"; };
+		E5C8DCF4163CE66000FBB82F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5C8DCF5163CE66000FBB82F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5C8DCF8163CE66000FBB82F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E5C8DD03163CE6F900FBB82F /* com.samuelkadolph.AXExamplePrivilegedHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.samuelkadolph.AXExamplePrivilegedHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C8DD08163CE6F900FBB82F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5C8DD0F163CE72D00FBB82F /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		E5C8DD13163CE77B00FBB82F /* AXExamplePrivilegedHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXExamplePrivilegedHelper.h; sourceTree = "<group>"; };
+		E5C8DD14163CE77B00FBB82F /* AXExamplePrivilegedHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXExamplePrivilegedHelper.m; sourceTree = "<group>"; };
+		E5C8DD15163CE77B00FBB82F /* AXExampleXPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXExampleXPC.h; sourceTree = "<group>"; };
+		E5C8DD16163CE77B00FBB82F /* AXExampleXPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXExampleXPC.m; sourceTree = "<group>"; };
+		E5C8DD1B163CE7FB00FBB82F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E5C8DD1D163CE80100FBB82F /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		E5C8DD1F163CE8A300FBB82F /* AXExamplePrivilegedHelper-Debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AXExamplePrivilegedHelper-Debug.plist"; sourceTree = "<group>"; };
+		E5C8DD20163CE8A300FBB82F /* AXExamplePrivilegedHelper-Release.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AXExamplePrivilegedHelper-Release.plist"; sourceTree = "<group>"; };
+		E5C8DD21163CE8A300FBB82F /* AXExamplePrivilegedHelper.launchd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AXExamplePrivilegedHelper.launchd.plist; sourceTree = "<group>"; };
+		E5C8DD22163CE9AA00FBB82F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		E5C8DD23163CE9FF00FBB82F /* AXExample-Release.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AXExample-Release.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5C8DCDB163CE66000FBB82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C8DD24163CEADA00FBB82F /* ApplicationServices.framework in Frameworks */,
+				E5C8DCE3163CE66000FBB82F /* Cocoa.framework in Frameworks */,
+				E5C8DD25163CEADF00FBB82F /* Security.framework in Frameworks */,
+				E5C8DD26163CEAE300FBB82F /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C8DD00163CE6F900FBB82F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C8DD10163CE72D00FBB82F /* ApplicationServices.framework in Frameworks */,
+				E5C8DD11163CE73300FBB82F /* Foundation.framework in Frameworks */,
+				E5C8DD1C163CE7FB00FBB82F /* Security.framework in Frameworks */,
+				E5C8DD1E163CE80100FBB82F /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5C8DCD3163CE66000FBB82F = {
+			isa = PBXGroup;
+			children = (
+				E5C8DCE8163CE66000FBB82F /* AXExample */,
+				E5C8DD07163CE6F900FBB82F /* AXExamplePrivilegedHelper */,
+				E5C8DD12163CE77B00FBB82F /* Common */,
+				E5C8DCE1163CE66000FBB82F /* Frameworks */,
+				E5C8DCDF163CE66000FBB82F /* Products */,
+				E5C8DD22163CE9AA00FBB82F /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		E5C8DCDF163CE66000FBB82F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5C8DCDE163CE66000FBB82F /* AXExample.app */,
+				E5C8DD03163CE6F900FBB82F /* com.samuelkadolph.AXExamplePrivilegedHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5C8DCE1163CE66000FBB82F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5C8DD0F163CE72D00FBB82F /* ApplicationServices.framework */,
+				E5C8DCE2163CE66000FBB82F /* Cocoa.framework */,
+				E5C8DCE7163CE66000FBB82F /* Foundation.framework */,
+				E5C8DD1B163CE7FB00FBB82F /* Security.framework */,
+				E5C8DD1D163CE80100FBB82F /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5C8DCE8163CE66000FBB82F /* AXExample */ = {
+			isa = PBXGroup;
+			children = (
+				E5C8DCF4163CE66000FBB82F /* AppDelegate.h */,
+				E5C8DCF5163CE66000FBB82F /* AppDelegate.m */,
+				E5C8DCEA163CE66000FBB82F /* AXExample-Debug.plist */,
+				E5C8DD23163CE9FF00FBB82F /* AXExample-Release.plist */,
+				E5C8DCF0163CE66000FBB82F /* AXExample.pch */,
+				E5C8DCEE163CE66000FBB82F /* main.m */,
+				E5C8DCF7163CE66000FBB82F /* MainMenu.xib */,
+			);
+			path = AXExample;
+			sourceTree = "<group>";
+		};
+		E5C8DD07163CE6F900FBB82F /* AXExamplePrivilegedHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E5C8DD1F163CE8A300FBB82F /* AXExamplePrivilegedHelper-Debug.plist */,
+				E5C8DD20163CE8A300FBB82F /* AXExamplePrivilegedHelper-Release.plist */,
+				E5C8DD21163CE8A300FBB82F /* AXExamplePrivilegedHelper.launchd.plist */,
+				E5C8DD08163CE6F900FBB82F /* main.m */,
+			);
+			path = AXExamplePrivilegedHelper;
+			sourceTree = "<group>";
+		};
+		E5C8DD12163CE77B00FBB82F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E5C8DD13163CE77B00FBB82F /* AXExamplePrivilegedHelper.h */,
+				E5C8DD14163CE77B00FBB82F /* AXExamplePrivilegedHelper.m */,
+				E5C8DD15163CE77B00FBB82F /* AXExampleXPC.h */,
+				E5C8DD16163CE77B00FBB82F /* AXExampleXPC.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5C8DCDD163CE66000FBB82F /* AXExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C8DCFC163CE66000FBB82F /* Build configuration list for PBXNativeTarget "AXExample" */;
+			buildPhases = (
+				E5C8DCDA163CE66000FBB82F /* Sources */,
+				E5C8DCDB163CE66000FBB82F /* Frameworks */,
+				E5C8DCDC163CE66000FBB82F /* Resources */,
+				E5C8DD29163CEB1500FBB82F /* Copy Launch Services */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5C8DD28163CEAFE00FBB82F /* PBXTargetDependency */,
+			);
+			name = AXExample;
+			productName = AXExample;
+			productReference = E5C8DCDE163CE66000FBB82F /* AXExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5C8DD02163CE6F900FBB82F /* AXExamplePrivilegedHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C8DD0C163CE6F900FBB82F /* Build configuration list for PBXNativeTarget "AXExamplePrivilegedHelper" */;
+			buildPhases = (
+				E5C8DCFF163CE6F900FBB82F /* Sources */,
+				E5C8DD00163CE6F900FBB82F /* Frameworks */,
+				E5C8DD01163CE6F900FBB82F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AXExamplePrivilegedHelper;
+			productName = AXExamplePrivilegedHelper;
+			productReference = E5C8DD03163CE6F900FBB82F /* com.samuelkadolph.AXExamplePrivilegedHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5C8DCD5163CE66000FBB82F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Samuel Kadolph";
+			};
+			buildConfigurationList = E5C8DCD8163CE66000FBB82F /* Build configuration list for PBXProject "AXExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5C8DCD3163CE66000FBB82F;
+			productRefGroup = E5C8DCDF163CE66000FBB82F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5C8DCDD163CE66000FBB82F /* AXExample */,
+				E5C8DD02163CE6F900FBB82F /* AXExamplePrivilegedHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5C8DCDC163CE66000FBB82F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C8DCF9163CE66000FBB82F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5C8DCDA163CE66000FBB82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C8DCEF163CE66000FBB82F /* main.m in Sources */,
+				E5C8DCF6163CE66000FBB82F /* AppDelegate.m in Sources */,
+				E5C8DD17163CE77B00FBB82F /* AXExamplePrivilegedHelper.m in Sources */,
+				E5C8DD19163CE77B00FBB82F /* AXExampleXPC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C8DCFF163CE6F900FBB82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C8DD09163CE6F900FBB82F /* main.m in Sources */,
+				E5C8DD18163CE77B00FBB82F /* AXExamplePrivilegedHelper.m in Sources */,
+				E5C8DD1A163CE77B00FBB82F /* AXExampleXPC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5C8DD28163CEAFE00FBB82F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5C8DD02163CE6F900FBB82F /* AXExamplePrivilegedHelper */;
+			targetProxy = E5C8DD27163CEAFE00FBB82F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5C8DCF7163CE66000FBB82F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5C8DCF8163CE66000FBB82F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5C8DCFA163CE66000FBB82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E5C8DCFB163CE66000FBB82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E5C8DCFD163CE66000FBB82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AXExample/AXExample.pch;
+				INFOPLIST_FILE = "$(TARGET_NAME)/$(TARGET_NAME)-$(CONFIGURATION).plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5C8DCFE163CE66000FBB82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AXExample/AXExample.pch;
+				INFOPLIST_FILE = "$(TARGET_NAME)/$(TARGET_NAME)-$(CONFIGURATION).plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E5C8DD0D163CE6F900FBB82F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(TARGET_NAME)/$(TARGET_NAME)-$(CONFIGURATION).plist";
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"$(TARGET_NAME)/$(TARGET_NAME)-$(CONFIGURATION).plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"$(TARGET_NAME)/$(TARGET_NAME).launchd.plist",
+				);
+				PRODUCT_NAME = "com.samuelkadolph.$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E5C8DD0E163CE6F900FBB82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "$(TARGET_NAME)/$(TARGET_NAME)-$(CONFIGURATION).plist";
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"$(TARGET_NAME)/$(TARGET_NAME)-$(CONFIGURATION).plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"$(TARGET_NAME)/$(TARGET_NAME).launchd.plist",
+				);
+				PRODUCT_NAME = "com.samuelkadolph.$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5C8DCD8163CE66000FBB82F /* Build configuration list for PBXProject "AXExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C8DCFA163CE66000FBB82F /* Debug */,
+				E5C8DCFB163CE66000FBB82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C8DCFC163CE66000FBB82F /* Build configuration list for PBXNativeTarget "AXExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C8DCFD163CE66000FBB82F /* Debug */,
+				E5C8DCFE163CE66000FBB82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E5C8DD0C163CE6F900FBB82F /* Build configuration list for PBXNativeTarget "AXExamplePrivilegedHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C8DD0D163CE6F900FBB82F /* Debug */,
+				E5C8DD0E163CE6F900FBB82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5C8DCD5163CE66000FBB82F /* Project object */;
+}
